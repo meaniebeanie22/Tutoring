@@ -1,2 +1,2 @@
 # Tutoring
-This is my webpage for my tutoring services.
+A webpage for tutoring.
