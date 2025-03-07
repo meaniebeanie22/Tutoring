@@ -8,19 +8,7 @@
     body {
       background-color: #1a1a1a; /* Darker background for a sleek look */
       color: #e0e0e0; /* Soft gray text for better readability */
-      font-family: 'IBM Plex Mono', monospace; /* Monospace font for console feel */
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: row;
-      height: 100vh;
-      line-height: 1.6;
-      background-color: #1a1a1a; /* Dark background color */
-      background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
-      background-size: 20px 20px; /* Size of the pattern */
-      background-blend-mode: overlay; /* Blend the pattern with the background color */
-      color: #e0e0e0; /* Soft gray text */
-      font-family: 'IBM Plex Mono', monospace;
+      font-family: 'IBX Plex Mono', monospace;
       margin: 0;
       padding: 0;
       display: flex;
@@ -30,17 +18,7 @@
 
     }
 
-    body::before {
-  content: '';
-  position: fixed;
-  top: -20px;
-  left: -20px;
-  right: -20px;
-  bottom: -20px;
-  background: linear-gradient(to right, rgba(255, 164, 89, 0.2) 0%, transparent 70%); /* Teal gradient */
-  pointer-events: none;
-  z-index: 1000;
-}
+
 
     .container {
       display: flex;
@@ -59,8 +37,9 @@
     .sidebar {
       flex: 1;
       padding: 20px;
-      text-align: center;
+      text-align: left;
       border-left: 2px solid #4d4d4d; /* Subtle border for separation */
+      font-family: "IBX Plex Mono", monospace;
     }
 
     .profile-pic {
@@ -73,7 +52,7 @@
 
     h1, h2 {
       color: #00cc99; /* Teal for headings */
-      font-family: 'IBM Plex Mono', monospace;
+      font-family: 'Courier New', Courier, monospace;
       font-weight: 600;
     }
 
@@ -194,14 +173,24 @@
         <h2>About</h2>
         <p>
           Hello! I'm Ruirui. I graduated as the dux of 
-          <a href src="https://www.nossalhs.vic.edu.au/">Nossal High School</a>
+          <a href="https://www.nossalhs.vic.edu.au/">Nossal High School</a>
           in 2024 with an <a href>ATAR of 99.95</a>. 
           I'm majoring in pure maths at the University of Melbourne.
-          I'm currently <a href src="">tutoring at the Centre for Higher Education Studies</a>,
-          a Victorian government school.
+          I'm currently <a href="https://ches.vic.edu.au/">tutoring at the Centre for Higher Education Studies</a>,
+          a Victorian government school. I've been tutoring students at my high school one-on-one throughout VCE.
         </p>
         <p>
           I'm providing online and in-person* tutoring. 
+        </p>
+        <p>
+          Why me?
+          <ul>
+            <li>Experience tutoring at a real high school</li>
+            <li>Specisalising in mathematics at university to provide a deeper understanding of high school content</li>
+            <li>Alternative explanations for mathematics: experience with Wolfram Mathematica, Desmos, for simulation and visualisation</li>
+            <li>Resources! I wrote practice papers for my cohort, and I collect English Language examples as a force of habit</li>
+            <li>Affordable... a good price:value ratio</li>
+          </ul>
         </p>
         <h3>My study scores</h3>
 
@@ -252,31 +241,31 @@
           <li>Primary school mathematics - support</li>
           <li>Year 7-10 Mathematics</li>
         </ul>
+        <h3>
+          Group classes - TBD
+        </h3>
+        <p>
+          Please get in touch if you're interested in group classes.
+        </p>
       </div>
-
 
       <div class="section" id="pricing">
         <h2>Pricing</h2>
         <p>
-          I charge $50/hour for private 1-on-1 tutoring. This is highly customisable and can be tailored to fit the individual student's needs: I can provide exam preparation, extension work, feedback on school assignments, and the like.
-          I charge $35/hour for small group (3-5 students) tutoring. This is very good value for money - check out the market! I keep my groups small to ensure that I can pay attention to each student's needs individually, as wel as encouraging group work.
-          You
+          I charge $50/hour for private 1-on-1 tutoring. 
+          I charge $35/hour for small group (3-5 students MAX) tutoring.
         </p>
       </div>
 
       <div class="section" id="scheduling">
         <h2>Scheduling</h2>
-        <p>Highly flexible scheduling is available for one-on-one classes, shoot me a message. Sessions run for 1 hour each.</p>
+        <p>Highly flexible scheduling is available for one-on-one classes, shoot me a message. Sessions run for 1 hour minimum.</p>
       </div>
 
       <div class="section" id="contact">
         <h2>Contact</h2>
-        <form class="contact-form">
-          <input type="text" placeholder="Your Name" required>
-          <input type="email" placeholder="Your Email" required>
-          <textarea placeholder="Your Message" rows="5" required></textarea>
-          <button type="submit">Send Message</button>
-        </form>
+        Phone: 0435335121
+        Email: ryao.tutoring@gmail.com
       </div>
     </div>
 
@@ -288,15 +277,9 @@
       </p>
       
 
-      <h3>Tutoring experience</h3>
-        <ul>
-          <li>2022-2024: One-on-one tutoring for students in my school</li>
-          <li>2023: Wrote mock algorithmics exam for my cohort</li>
-          <li>2024: Wrote mock methods/specialist SAC questions for my cohort</li>
-          <li>2025-: Tutor at the Centre for Higher Education Studies</li>
-        </ul>
+
       <div class="side">
-      <h3>Academics</h3>
+      <h2>Academics</h2>
       Personal academics are not sufficient to show that someone is a good tutor. Nonetheless, it should demonstrate a modicum of competency!
       <ul>
         <li>2023: Rank 1 algorithmics, rank 1 methods at school</li>
